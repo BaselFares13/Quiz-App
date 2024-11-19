@@ -13,7 +13,7 @@ let numberOfRightAnswers = 0;
 function getQuiz() {
     let myReq = new XMLHttpRequest();
 
-    myReq.open("GET", "../questions.json");
+    myReq.open("GET", "questions.json");
     myReq.send();
 
     myReq.onreadystatechange = function () {
